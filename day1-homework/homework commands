@@ -1,1 +1,2 @@
 fastqc SRR072903.fastq
+hisat2 -p 8 -q -x ~/data/genomes/BDGP6 -U ~/qbb2017-answers/day1-afternoon/SRR072903.fastq -S BDGP6.sam
