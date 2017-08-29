@@ -1,0 +1,22 @@
+#!/usr/bin/env python
+
+import sys
+
+fly = open( sys.argv[1] )
+
+drome = "DROME"
+
+count = 0 
+
+for line in fly:
+    if drome in line: 
+        fields = line.rstrip("\r\n").split()
+        if len(fields)!=4:
+             continue
+        count += 1
+        if count > 100:
+            break
+        flybase_gene_name = fields [3]
+        ac_name = fields [2]
+        print flybase_gene_name, ac_name, count
+        
