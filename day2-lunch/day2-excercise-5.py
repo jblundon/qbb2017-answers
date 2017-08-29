@@ -4,17 +4,16 @@ import sys
 
 align=open( sys.argv[1] )
 
-time=align.readlines()
 
-result=[]
+total = 0.0
+count = 0.0
 
-for line in time:
-    if "AS:" not in line:
+for line in align:
+    if line.startswith( "@" ):
         continue
-    else:    
-        result.append(line.split("\t")[4])
+    id = line.split('\t')
+    total = total + float(id[4])
+    count += 1
         
-align.close()  
-
-sum(result)/float(len(result))
+print total / count
 
