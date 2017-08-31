@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+
+"""
+
+"""
+import sys
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df1 = pd.read_csv( sys.argv[1], sep="\t")
+df2 = pd.read_csv( sys.argv[2], sep="\t")
+
+
+
+
+
+
+
+
+plt.figure()
+plt.scatter( df1["FPKM"], df2["FPKM"], alpha=0.2, color='blue')#, edgecolors="none")
+plt.yscale('log')
+plt.xscale('log')
+plt.suptitle('Scatterplot', fontsize=28)
+plt.xlabel('SRR072893', fontsize=20)
+plt.ylabel('SRR072915', fontsize=20)
+plt.ylim(0.001, 100000)
+plt.xlim(0.001, 100000)
+plt.savefig( sys.argv[3] + ".png")
+plt.close()
