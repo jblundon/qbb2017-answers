@@ -37,6 +37,8 @@ class FASTAReader(object):
                 self.last_ident = line.split()[0][1:]
                 break
             elif line == "":
+                if sequences:
+                    return ident, "".join( sequences )
                 raise StopIteration
             else:
                 sequences.append( line )
