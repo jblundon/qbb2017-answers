@@ -28,7 +28,6 @@ fpkms2 = []
 fpkms3 = []
 fpkms4 = []
 
-
 for sample in df_samples1["sample"][soi1]:
     # Build a complete path
     fname = os.path.join( sys.argv[2], sample, "t_data.ctab" )
@@ -58,14 +57,20 @@ for sample in df_samples4["sample"][soi4]:
     fpkms4.append( df[roi4]["FPKM"].values )   
     
 plt.figure()
-plt.plot( fpkms1, color = 'red', label = 'Female')
-plt.plot( fpkms2, color = 'blue', label = 'Male' )
-plt.plot( [4,5,6,7], fpkms3, "o", color = 'red', label = 'Female Replicate')
-plt.plot( [4,5,6,7],fpkms4, "o", color = 'blue', label = 'Male Replicate' )
+plt.rc('axes', linewidth=3)
+plt.rc('xtick', labelsize=20)
+plt.rc('ytick', labelsize=20)  
+plt.plot( fpkms1, color = 'red', label = 'Female', linewidth=2)
+plt.plot( fpkms2, color = 'blue', label = 'Male', linewidth=2 )
+plt.plot( [4,5,6,7], fpkms3, "o", color = 'red', label = 'Female Replicate', markersize=10)
+plt.plot( [4,5,6,7],fpkms4, "o", color = 'blue', label = 'Male Replicate', markersize=10 )
 plt.xlabel("Developmental Stage", fontsize = 20)
 plt.ylabel("mRNA Abundance (RPKM)", fontsize = 20)
-plt.suptitle("$\it{Sxl}$", fontsize = 30)
+plt.title("Sxl",size=30,style='italic')
 plt.xticks([0,1,2,3,4,5,6,7],("10", "11", "12", "13", "14A", "14B", "14C", "14D"), rotation = "vertical")
-plt.legend(loc = "best")
+plt.legend(loc = "best", frameon=False, numpoints=1)
+plt.ylim(-3, 200)
+plt.xlim(-0.5, 7.5)
+plt.tick_params(right='off',top='off',direction='out')
 plt.savefig( "day4-homework.png", bbox_inches = "tight")
 plt.close()
