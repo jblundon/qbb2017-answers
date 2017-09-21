@@ -1,0 +1,293 @@
+/usr/local/Cellar/quast/4.5/quast.py ./velvet_high/contigs.fa ./spades_nanopore/contigs.fasta ./spades_high/contigs.fasta velvet_low.fa spades_low.fasta -R reference.fasta
+
+Version: 4.5, 15ca3b9
+
+System information:
+  OS: Darwin-16.7.0-x86_64-i386-64bit (macosx)
+  Python version: 2.7.10
+  CPUs number: 4
+
+Started: 2017-09-20 22:05:19
+
+Logging to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/quast.log
+NOTICE: Maximum number of threads is set to 1 (use --threads option to set it manually)
+
+CWD: /Users/cmdb/qbb2017-answers/week-2
+Main parameters: 
+  Threads: 1, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  reference.fasta ==> reference
+
+Contigs:
+  Pre-processing...
+  1  ./velvet_high/contigs.fa ==> velvet_high_contigs
+  2  ./spades_nanopore/contigs.fasta ==> spades_nanopore_contigs
+  3  ./spades_high/contigs.fasta ==> spades_high_contigs
+  4  velvet_low.fa ==> velvet_low
+  5  spades_low.fasta ==> spades_low
+
+2017-09-20 22:05:19
+Running Basic statistics processor...
+  Reference genome:
+    reference.fasta, length = 4639675, num fragments = 1, GC % = 50.79
+  Contig files: 
+    1  velvet_high_contigs
+    2  spades_nanopore_contigs
+    3  spades_high_contigs
+    4  velvet_low
+    5  spades_low
+  Calculating N50 and L50...
+    1  velvet_high_contigs, N50 = 19911, L50 = 2, Total length = 99562, GC % = 52.58, # N's per 100 kbp =  0.00
+    2  spades_nanopore_contigs, N50 = 3698, L50 = 6, Total length = 61012, GC % = 52.37, # N's per 100 kbp =  0.00
+    3  spades_high_contigs, N50 = 100000, L50 = 1, Total length = 100000, GC % = 52.59, # N's per 100 kbp =  0.00
+    4  velvet_low, N50 = 632, L50 = 5, Total length = 7243, GC % = 50.71, # N's per 100 kbp =  0.00
+    5  spades_low, N50 = 718, L50 = 8, Total length = 15922, GC % = 51.21, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/GC_content_plot.pdf
+  Drawing velvet_high_contigs GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/velvet_high_contigs_GC_content_plot.pdf
+  Drawing spades_nanopore_contigs GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/spades_nanopore_contigs_GC_content_plot.pdf
+  Drawing spades_high_contigs GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/spades_high_contigs_GC_content_plot.pdf
+  Drawing velvet_low GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/velvet_low_GC_content_plot.pdf
+  Drawing spades_low GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/spades_low_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/coverage_histogram.pdf
+  Drawing velvet_high_contigs coverage histogram (bin size: 7x)...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/velvet_high_contigs_coverage_histogram.pdf
+  Drawing spades_nanopore_contigs coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/spades_nanopore_contigs_coverage_histogram.pdf
+  Drawing spades_high_contigs coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/spades_high_contigs_coverage_histogram.pdf
+  Drawing velvet_low coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/velvet_low_coverage_histogram.pdf
+  Drawing spades_low coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/basic_stats/spades_low_coverage_histogram.pdf
+Done.
+
+2017-09-20 22:05:24
+Running Contig analyzer...
+NOTICE: Previous try of gnuplot compilation was unsuccessful! For forced retrying, please remove /usr/local/Cellar/quast/4.5/quast_libs/gnuplot/make.failed and restart QUAST. 
+  1  velvet_high_contigs
+  1  Logging to files /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_high_contigs.stdout and contigs_report_velvet_high_contigs.stderr...
+  1  Aligning contigs to the reference
+  1  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_high_contigs \
+     --emem -t 1 --emempath /usr/local/bin/e-mem quast_results/results_2017_09_20_22_05_19/quast_corrected_input/reference.fasta \
+     quast_results/results_2017_09_20_22_05_19/quast_corrected_input/velvet_high_contigs.fa \
+     >> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_high_contigs.stdout \
+     2>> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_high_contigs.stderr
+  1  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/delta-filter -i 95.0 -l 0 quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_high_contigs.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_high_contigs.fdelta \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_high_contigs.stderr
+  1  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummerplot --html --layout -p quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_high_contigs \
+     quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_high_contigs.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_high_contigs.stdout \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_high_contigs.stderr
+NOTICE: 1   MUMmer plot cannot be created.
+
+  1  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-coords quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_high_contigs.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_high_contigs.coords_tmp \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_high_contigs.stderr
+  1  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-snps -S -T -H quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_high_contigs.delta \
+     < quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_high_contigs.coords.headless \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_high_contigs.all_snps \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_high_contigs.stderr
+  1  Analysis is finished.
+
+  Gzipping /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_high_contigs.all_snps to reduce disk space usage...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_high_contigs.all_snps.gz
+  2  spades_nanopore_contigs
+  2  Logging to files /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_nanopore_contigs.stdout and contigs_report_spades_nanopore_contigs.stderr...
+  2  Aligning contigs to the reference
+  2  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_nanopore_contigs \
+     --emem -t 1 --emempath /usr/local/bin/e-mem quast_results/results_2017_09_20_22_05_19/quast_corrected_input/reference.fasta \
+     quast_results/results_2017_09_20_22_05_19/quast_corrected_input/spades_nanopore_contigs.fasta \
+     >> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_nanopore_contigs.stdout \
+     2>> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_nanopore_contigs.stderr
+  2  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/delta-filter -i 95.0 -l 0 quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_nanopore_contigs.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_nanopore_contigs.fdelta \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_nanopore_contigs.stderr
+  2  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummerplot --html --layout -p quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_nanopore_contigs \
+     quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_nanopore_contigs.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_nanopore_contigs.stdout \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_nanopore_contigs.stderr
+NOTICE: 2   MUMmer plot cannot be created.
+
+  2  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-coords quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_nanopore_contigs.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_nanopore_contigs.coords_tmp \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_nanopore_contigs.stderr
+  2  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-snps -S -T -H quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_nanopore_contigs.delta \
+     < quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_nanopore_contigs.coords.headless \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_nanopore_contigs.all_snps \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_nanopore_contigs.stderr
+  2  Analysis is finished.
+
+  Gzipping /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_nanopore_contigs.all_snps to reduce disk space usage...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_nanopore_contigs.all_snps.gz
+  3  spades_high_contigs
+  3  Logging to files /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_high_contigs.stdout and contigs_report_spades_high_contigs.stderr...
+  3  Aligning contigs to the reference
+  3  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_high_contigs \
+     --emem -t 1 --emempath /usr/local/bin/e-mem quast_results/results_2017_09_20_22_05_19/quast_corrected_input/reference.fasta \
+     quast_results/results_2017_09_20_22_05_19/quast_corrected_input/spades_high_contigs.fasta \
+     >> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_high_contigs.stdout \
+     2>> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_high_contigs.stderr
+  3  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/delta-filter -i 95.0 -l 0 quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_high_contigs.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_high_contigs.fdelta \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_high_contigs.stderr
+  3  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummerplot --html --layout -p quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_high_contigs \
+     quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_high_contigs.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_high_contigs.stdout \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_high_contigs.stderr
+NOTICE: 3   MUMmer plot cannot be created.
+
+  3  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-coords quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_high_contigs.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_high_contigs.coords_tmp \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_high_contigs.stderr
+  3  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-snps -S -T -H quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_high_contigs.delta \
+     < quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_high_contigs.coords.headless \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_high_contigs.all_snps \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_high_contigs.stderr
+  3  Analysis is finished.
+
+  Gzipping /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_high_contigs.all_snps to reduce disk space usage...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_high_contigs.all_snps.gz
+  4  velvet_low
+  4  Logging to files /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_low.stdout and contigs_report_velvet_low.stderr...
+  4  Aligning contigs to the reference
+  4  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_low \
+     --emem -t 1 --emempath /usr/local/bin/e-mem quast_results/results_2017_09_20_22_05_19/quast_corrected_input/reference.fasta \
+     quast_results/results_2017_09_20_22_05_19/quast_corrected_input/velvet_low.fa \
+     >> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_low.stdout \
+     2>> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_low.stderr
+  4  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/delta-filter -i 95.0 -l 0 quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_low.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_low.fdelta \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_low.stderr
+  4  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummerplot --html --layout -p quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_low \
+     quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_low.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_low.stdout \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_low.stderr
+NOTICE: 4   MUMmer plot cannot be created.
+
+  4  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-coords quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_low.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_low.coords_tmp \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_low.stderr
+  4  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-snps -S -T -H quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_low.delta \
+     < quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_low.coords.headless \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_low.all_snps \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_velvet_low.stderr
+  4  Analysis is finished.
+
+  Gzipping /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_low.all_snps to reduce disk space usage...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/velvet_low.all_snps.gz
+  5  spades_low
+  5  Logging to files /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_low.stdout and contigs_report_spades_low.stderr...
+  5  Aligning contigs to the reference
+  5  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low \
+     --emem -t 1 --emempath /usr/local/bin/e-mem quast_results/results_2017_09_20_22_05_19/quast_corrected_input/reference.fasta \
+     quast_results/results_2017_09_20_22_05_19/quast_corrected_input/spades_low.fasta \
+     >> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_low.stdout \
+     2>> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_low.stderr
+  5  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/delta-filter -i 95.0 -l 0 quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.fdelta \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_low.stderr
+  5  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummerplot --html --layout -p quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low \
+     quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_low.stdout \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_low.stderr
+NOTICE: 5   MUMmer plot cannot be created.
+
+  5  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-coords quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.delta \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.coords_tmp \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_low.stderr
+  5  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-snps -S -T -H quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.delta \
+     < quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.coords.headless \
+     > quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.all_snps \
+     2> quast_results/results_2017_09_20_22_05_19/contigs_reports/contigs_report_spades_low.stderr
+  5  Analysis is finished.
+
+  Gzipping /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.all_snps to reduce disk space usage...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.all_snps.gz
+  Creating total report...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2017-09-20 22:05:34
+Running NA-NGA calculation...
+  1  velvet_high_contigs, Largest alignment = 33235, NA50 = 19911, LA50 = 2
+  2  spades_nanopore_contigs, Largest alignment = 6735, NA50 = 3698, LA50 = 6
+  3  spades_high_contigs, Largest alignment = 100000, NA50 = 100000, LA50 = 1
+  4  velvet_low, Largest alignment = 998, NA50 = 632, LA50 = 5
+  5  spades_low, Largest alignment = 1737, NA50 = 715, LA50 = 8
+  Drawing cumulative plot...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/aligned_stats/NGAx_plot.pdf
+Done.
+
+2017-09-20 22:05:35
+Running Genome analyzer...
+  NOTICE: No file with genes provided. Use the -G option if you want to specify it.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  1  velvet_high_contigs
+  1  Analysis is finished.
+  2  spades_nanopore_contigs
+  2  Analysis is finished.
+  3  spades_high_contigs
+  3  Analysis is finished.
+  4  velvet_low
+  4  Analysis is finished.
+  5  spades_low
+  5  Analysis is finished.
+  Drawing Genome fraction, % histogram...
+    saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2017-09-20 22:05:38
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2017-09-20 22:05:41
+RESULTS:
+  Text versions of total report are saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/report.html
+  PDF version (tables and plots) is saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/report.pdf
+  Icarus (contig browser) is saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/icarus.html
+  Log saved to /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/quast.log
+
+Finished: 2017-09-20 22:05:41
+Elapsed time: 0:00:22.310261
+NOTICEs: 10; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

@@ -1,0 +1,23 @@
+    [S1]     [E1]  |     [S2]     [E2]  |  [LEN 1]  [LEN 2]  |  [% IDY]  | [TAGS]
+=====================================================================================
+61790 63526 | 1737 1 | 1737 1737 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_1_length_1737_cov_1.140904
+15377 16785 | 1 1409 | 1409 1409 | 99.86 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_2_length_1409_cov_1.864106
+65966 66656 | 1 691 | 691 691 | 99.71 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_3_length_1084_cov_1.084548
+5158 5550 | 1084 692 | 393 393 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_3_length_1084_cov_1.084548
+88623 89705 | 1 1083 | 1083 1083 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_4_length_1083_cov_1.457198
+24420 25375 | 956 1 | 956 956 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_5_length_956_cov_1.034406
+19720 20561 | 842 1 | 842 842 | 99.88 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_6_length_842_cov_3.841169
+53210 54002 | 793 1 | 793 793 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_7_length_793_cov_1.149051
+77926 78643 | 1 718 | 718 718 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_8_length_718_cov_2.304676
+14419 15133 | 1 715 | 715 715 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_9_length_715_cov_1.603030
+85023 85734 | 712 1 | 712 712 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_10_length_712_cov_1.171994
+57016 57721 | 706 1 | 706 706 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_11_length_706_cov_0.946237
+37408 38096 | 1 689 | 689 689 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_12_length_689_cov_1.503155
+55754 56388 | 635 1 | 635 635 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_13_length_635_cov_2.018966
+51424 52010 | 1 587 | 587 587 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_14_length_587_cov_1.385338
+18414 18997 | 1 584 | 584 584 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_15_length_584_cov_1.489603
+10755 11300 | 546 1 | 546 546 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_16_length_546_cov_1.429735
+8474 9015 | 542 1 | 542 542 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_17_length_542_cov_1.763860
+87136 87667 | 532 1 | 532 532 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_18_length_532_cov_1.098532
+17116 17646 | 1 531 | 531 531 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_19_length_531_cov_1.155462
+19144 19664 | 521 1 | 521 521 | 100.0 | U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_ NODE_20_length_521_cov_1.568670

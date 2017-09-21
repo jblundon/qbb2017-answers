@@ -1,0 +1,5 @@
+WARNING: Could not find gnuplot, plot will not be rendered
+Writing filtered delta file /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.filter
+Reading delta file /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.delta
+Writing plot files /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.fplot, /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.rplot
+Writing gnuplot script /Users/cmdb/qbb2017-answers/week-2/quast_results/results_2017_09_20_22_05_19/contigs_reports/nucmer_output/spades_low.gp

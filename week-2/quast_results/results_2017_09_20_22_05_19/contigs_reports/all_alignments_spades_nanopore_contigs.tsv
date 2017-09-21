@@ -1,0 +1,51 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+50966	57721	6735	1	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_1_length_6735_cov_0.400898	99.66		True
+CONTIG	NODE_1_length_6735_cov_0.400898	6735	correct
+8474	15133	6632	1	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_2_length_6632_cov_0.533222	99.55		True
+CONTIG	NODE_2_length_6632_cov_0.533222	6632	correct
+19720	25911	1	6166	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_3_length_6166_cov_0.729668	99.56		True
+CONTIG	NODE_3_length_6166_cov_0.729668	6166	correct
+67082	72054	4952	1	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_4_length_4952_cov_0.153563	99.5		True
+CONTIG	NODE_4_length_4952_cov_0.153563	4952	correct
+32281	36334	1	4040	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_5_length_4040_cov_0.327478	99.65		True
+CONTIG	NODE_5_length_4040_cov_0.327478	4040	correct
+60725	64428	1	3698	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_6_length_3698_cov_0.429591	99.84		True
+CONTIG	NODE_6_length_3698_cov_0.429591	3698	correct
+91308	94656	1	3338	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_7_length_3338_cov_0.186110	99.17		True
+CONTIG	NODE_7_length_3338_cov_0.186110	3338	correct
+75968	78643	1	2673	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_8_length_2673_cov_0.642093	99.59		True
+CONTIG	NODE_8_length_2673_cov_0.642093	2673	correct
+17116	19664	1	2544	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_9_length_2544_cov_0.639213	99.69		True
+CONTIG	NODE_9_length_2544_cov_0.639213	2544	correct
+26057	28372	2305	1	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_10_length_2305_cov_0.175111	99.48		True
+CONTIG	NODE_10_length_2305_cov_0.175111	2305	correct
+44349	46318	1	1961	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_11_length_1961_cov_0.141133	99.54		True
+CONTIG	NODE_11_length_1961_cov_0.141133	1961	correct
+95941	97790	1	1843	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_12_length_1843_cov_0.223154	99.62		True
+CONTIG	NODE_12_length_1843_cov_0.223154	1843	correct
+88623	90263	1637	1	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_13_length_1637_cov_0.974716	99.76		True
+CONTIG	NODE_13_length_1637_cov_0.974716	1637	correct
+41387	43025	1	1626	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_14_length_1626_cov_0.175048	99.21		True
+CONTIG	NODE_14_length_1626_cov_0.175048	1626	correct
+84148	85734	1	1584	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_15_length_1584_cov_0.670373	99.81		True
+CONTIG	NODE_15_length_1584_cov_0.670373	1584	correct
+15377	16785	1	1409	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_16_length_1409_cov_1.864106	99.86		True
+CONTIG	NODE_16_length_1409_cov_1.864106	1409	correct
+81814	83220	1404	1	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_17_length_1404_cov_0.295033	99.57		True
+CONTIG	NODE_17_length_1404_cov_0.295033	1404	correct
+2418	3805	1388	1	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_18_length_1388_cov_0.257314	99.86		True
+CONTIG	NODE_18_length_1388_cov_0.257314	1388	correct
+79502	80881	1	1375	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_19_length_1375_cov_0.485606	99.64		True
+CONTIG	NODE_19_length_1375_cov_0.485606	1375	correct
+65966	66656	1	691	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_20_length_1084_cov_1.084548	99.71		True
+relocation, inconsistency = 60415
+5158	5550	1084	692	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_20_length_1084_cov_1.084548	100.0		True
+CONTIG	NODE_20_length_1084_cov_1.084548	1084	misassembled
+145	851	1	705	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_21_length_705_cov_0.815385	99.72		True
+CONTIG	NODE_21_length_705_cov_0.815385	705	correct
+58651	59346	1	692	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_22_length_692_cov_0.609105	99.43		True
+CONTIG	NODE_22_length_692_cov_0.609105	692	correct
+37408	38096	1	689	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_23_length_689_cov_1.503155	100.0		True
+CONTIG	NODE_23_length_689_cov_1.503155	689	correct
+87136	87667	532	1	U00096.2__Escherichia_coli_K-12_MG1655_complete_genome__4639675_bp_	NODE_24_length_532_cov_1.098532	100.0		True
+CONTIG	NODE_24_length_532_cov_1.098532	532	correct
