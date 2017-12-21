@@ -1,0 +1,7 @@
+1) Enterococcus faecalis is the most dominant microbiota. It exapnds over and then goes down. Staphylococcus epidermidis abundance increases as time goes on. 
+
+2) We can group contigs by GC content and read abundance and these are species specific. Can also group them by kmer profiles.
+
+4) We could compare the Kraken classifications in a bin for all the assembled contigs and not just a single contig. Then choose the highest frequency contigs.
+
+5) The heatmap confirms the trends in the taxonomy distributions. 
