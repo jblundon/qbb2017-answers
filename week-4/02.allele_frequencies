@@ -1,0 +1,30 @@
+#!/usr/bin/env python
+
+"""
+./02.allele_frequencies "vcf_output" "output.png"
+"""
+
+import sys
+import matplotlib.pyplot as plt
+
+looking_good_Peter = open(sys.argv[1])
+
+afreqs = []
+
+for line in looking_good_Peter:
+    if line.startswith( '#' ):
+        pass
+    else:
+        sequences = line.rstrip('\r\n').split('\t')
+        freqs = sequences[7].lstrip('AF=').split(',')
+        for freq in freqs:
+            afreqs.append(float(freq))
+            
+plt.figure()
+plt.hist( afreqs, bins=100)
+plt.xlabel('AF')
+plt.ylabel('Counts')
+plt.title ('AFs')
+plt.savefig( sys.argv[2] )
+plt.close()
+            
